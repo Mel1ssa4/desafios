@@ -1,4 +1,4 @@
-let notas = [8, 7, 9, 4, 6, 10];
+let notas = [8, 7, 9, 4, 6, 10, 12];
 let verificar = notas.every(nota => nota > 0 && nota <= 10);
 // every verifica se todos os valores passados atendem uma condição 
 if (verificar) {
