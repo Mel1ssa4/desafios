@@ -9,7 +9,6 @@ let i = 0;
 while (i < notas.length) {
   if (notas[i] < 0 || notas[i] > 10) {
     console.log(`\n[Aviso] Nota inválida (${notas[i]}) encontrada no índice ${i}. Removendo...`);
-    // 6. SPLICE: Remove a nota incorreta no índice atual
     notas.splice(i, 1);
   } else {
     i++;
