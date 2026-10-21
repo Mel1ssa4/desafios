@@ -6,6 +6,6 @@ let participantes = [
 "Lucas"
 ];
 
-let listaFormada = participantes.join(",");
-
-console.log(listaFormada);
+console.log(participantes.join(","));
+// desafio extra:
+console.log(participantes.join(" | "));
